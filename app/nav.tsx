@@ -1,11 +1,9 @@
-'use client';
-
-import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { WalletButton } from '../components/WalletButton';
 
 export function Nav() {
     return (
         <div className="flex flex-row-reverse">
-            <ConnectButton />
-        </div>
+            <WalletButton />
+        </div >
     )
 }
